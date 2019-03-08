@@ -1,13 +1,10 @@
-h1 {
-    text-align: center;
-}
-.topnav a{
+h1 {text-align: center;}
+
+.topnav a {
     float: right;
     width: 33%;
     color: blueviolet;
     background: red
 }
 
-p{
-    color: blue;
-}
+p {color:blue;}
