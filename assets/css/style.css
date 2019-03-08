@@ -1,10 +1,5 @@
-h1 {text-align: center;}
-
-.topnav a {
-    float: right;
-    width: 33%;
-    color: blueviolet;
-    background: red
+header {
+    float: left;
+    background-color: #4aaaa5;
+    color: white
 }
-
-p {color:blue;}
