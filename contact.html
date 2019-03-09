@@ -11,13 +11,14 @@
 <body>
 
     <header>Alexander Besancon</header>
-
-        <ul id=menu>    
-            <li><a class="home" href="index.html">About</a></li>
-            <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
-            <li><a class="contact" href="#contact">Contact</a></li>
-        </ul>
-
+        <div class="navbar navbar-default navbar-static-top header-menu">
+            <ul class="nav navbar-nav navbar-middle navbar text" style="float:none;margin: 0 auto; display: table;table-layout: fixed">    
+                <li><a class="home" href="index.html">About</a></li>
+                <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
+                <li><a class="contact" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
         <br>
 
     <h3>Contact</h3>
@@ -47,11 +48,40 @@
         border-color: #cccccc;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        width: 148px;
         padding: 20px;
     }
 
-    ul#menu li { 
-        display: inline;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff 
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    div.navbar a {
+        display: inline-block;
+    }
+
+    ul li:after {
+        content: "|";
+    }
+    
+    ul li:last-child {
+        content: ""
     }
 
 </style>

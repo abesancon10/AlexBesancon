@@ -4,12 +4,38 @@ header {
     border-color: #cccccc;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font:bolder;
+    width: 148px;
+    padding: 20px;
 }
 
-ol#menu li {
-    float:right;
-    display: inline;
-    width: 100px;
-    height: 150px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+div.navbar a {
+    display: inline-block;
+}
+
+ul li:after {
+    content: "|";
+}
+
+ul li:last-child {
+    content: ""
 }
