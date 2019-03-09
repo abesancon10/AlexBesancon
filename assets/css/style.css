@@ -1,10 +1,60 @@
-h1 {text-align: center;}
+body {
+    margin-left: 10%;
+    margin-right: 10%;
 
-.topnav a {
-    float: right;
-    width: 33%;
-    color: blueviolet;
-    background: red
+}
+header {
+    float: left;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    width: auto;
+    padding: 20px;
 }
 
-p {color:blue;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+div.navbar a {
+    display: inline-block;
+}
+
+ul li:after {
+    content: "|";
+}
+
+**Need to take the pipe bar out of contact**
+ul li:last-child {
+    content: "none";
+}
+
+div.container {
+    width: 960px;
+    margin: auto;
+    border: 3px #dddddd       
+}
+
+h3 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+}

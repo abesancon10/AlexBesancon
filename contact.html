@@ -10,31 +10,131 @@
 
 <body>
 
-    <header>Alexander Besancon</header>
+    <header>Alexander Besancon</header> 
 
-    <div class="topnav">
-        <a class="home" href="index.html">About</a>
-        <a class="portfolio" href="portfolio.html">Portfolio</a>
-        <a class="contact" href="#contact">Contact</a>
+        <div class="navbar navbar-default navbar-static-top header-menu">
+        
+            <ul class="nav navbar-nav navbar-middle navbar text" style="float:none;margin: 0 auto; display: table;table-layout: fixed">    
+                
+                <li><a class="contact" href="#contact">Contact</a></li>
+                <li><a class="portfolio" href="portfolio.html">Portfolio</a></li>
+                <li><a class="home" href="index.html">About</a></li>
+            
+            </ul>
+        
+        </div>   
+    
+    <br>
+
+    <div class="content-container">
+        
+        <h3>Contact</h3>
+        
+        <hr>
+        
+        <form>
+            Name:<br><br>
+            <input type="text" name="name" value="John Smith">
+            <br><br>
+            
+            Email:<br><br>
+            <input type="text" name="email" value="example@gmail.com">
+            <br><br>
+            
+            Message:<br><br>
+            <input type="text" name="message">
+            <br><br>
+            
+            <input type="submit" value="Submit">
+        
+        </form>
+    
     </div>
-
-    <h3>Contact</h3>
-
-    <form>
-        Name:<br><br>
-        <input type="text" name="name" value="John Smith">
-        <br><br>
-        Email:<br><br>
-        <input type="text" name="email" value="example@gmail.com">
-        <br><br>
-        Message:<br><br>
-        <input type="text" name="message">
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
 
     <footer>Copyright ©</footer>
    
 </body>
+
+<style>
+    
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    header {
+    float: left;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    width: auto;
+    padding: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+    
+    }
+
+    li {
+        float: right;
+        align-content: stretch;
+    }
+
+    li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    div.navbar a {
+        display: inline-block;
+    }
+
+    ul li:after {
+        content: "|";
+    }
+    
+    **Need to take the pipe bar out of contact**
+    ul li:last-child {
+        content: "none";
+    }
+
+    div.container {
+        width: 960px;
+        margin-top: 20px;
+        border: 3px #dddddd;
+        float: left;     
+    }
+
+    h3 {
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: x-large;
+    }
+    
+    hr {
+        color: #777777;
+        width: 960px;
+        float: left;
+        align-content:space-between;
+    }
+    
+    form {
+        width: 940px;
+        color: #777777;
+        padding: 10px;
+
+    }
+
+</style>
 
 </html>
