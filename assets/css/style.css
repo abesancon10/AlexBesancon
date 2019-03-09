@@ -7,8 +7,9 @@ header {
     font:bolder;
 }
 
-ul {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0 .25em 0 0;
+ol#menu li {
+    float:right;
+    display: inline;
+    width: 100px;
+    height: 150px;
 }
