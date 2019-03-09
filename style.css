@@ -1,17 +1,17 @@
 body {
     margin-left: 10%;
     margin-right: 10%;
-
 }
+
 header {
-    float: left;
-    background-color: #4aaaa5;
-    border-color: #cccccc;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    width: auto;
-    padding: 20px;
+float: left;
+background-color: #4aaaa5;
+border-color: #cccccc;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: x-large;
+width: auto;
+padding: 20px;
 }
 
 ul {
@@ -19,11 +19,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff 
+    background-color: #ffffff;
+
 }
 
 li {
-    float: left;
+    float: right;
+    align-content: stretch;
 }
 
 li a {
@@ -49,12 +51,26 @@ ul li:last-child {
 
 div.container {
     width: 960px;
-    margin: auto;
-    border: 3px #dddddd       
+    margin-top: 20px;
+    border: 3px #dddddd;
+    float: left;     
 }
 
 h3 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
+}
+
+hr {
+    color: #777777;
+    width: 960px;
+    float: left;
+    align-content:space-between;
+}
+
+form {
+    width: 940px;
+    color: #777777;
+    padding: 10px;
 }
