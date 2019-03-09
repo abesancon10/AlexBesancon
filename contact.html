@@ -21,20 +21,25 @@
         
         <br>
 
-    <h3>Contact</h3>
+    <div class="content-container"></div>
+        <h3>Contact</h3>
 
-    <form>
-        Name:<br><br>
-        <input type="text" name="name" value="John Smith">
-        <br><br>
-        Email:<br><br>
-        <input type="text" name="email" value="example@gmail.com">
-        <br><br>
-        Message:<br><br>
-        <input type="text" name="message">
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
+        <form>
+            Name:<br><br>
+            <input type="text" name="name" value="John Smith">
+            <br><br>
+            
+            Email:<br><br>
+            <input type="text" name="email" value="example@gmail.com">
+            <br><br>
+            
+            Message:<br><br>
+            <input type="text" name="message">
+            <br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
     <footer>Copyright ©</footer>
    
@@ -42,13 +47,19 @@
 
 <style>
     
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
     header {
         float: left;
         background-color: #4aaaa5;
         border-color: #cccccc;
         color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        width: 148px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: x-large;
+        width: auto;
         padding: 20px;
     }
 
@@ -80,9 +91,24 @@
         content: "|";
     }
     
+    **Need to take the pipe bar out of contact**
     ul li:last-child {
-        content: ""
+        content: "none";
     }
+
+    div.container {
+        width: 960px;
+        margin: auto;
+        border: 3px #dddddd       
+    }
+
+    h3 {
+        color: #4aaaa5;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: x-large;
+    }
+
+
 
 </style>
 
