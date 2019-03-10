@@ -117,7 +117,6 @@ p {
     line-height: 2;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    line
 }
 
 p.copyright {
@@ -130,6 +129,7 @@ p.copyright {
 img {
     width: 250px;
     height: auto;
+    padding: 20px;
     float: left;
     object-fit: contain;
     translate: -10%;
@@ -146,12 +146,11 @@ div.portfolio img {
     height: auto;
 }
 
-button {
+div.portfolio button {
     position: absolute;
-    bottom: 20%;
     left: 50%;
-    transform: translate(-100%);
-    bottom: 10px;
+    transform: translate(-90%);
+    bottom: 40px;
     background-color: #4aaaa5;
     color: white;
     font-family: 'Times New Roman', Times, serif;
