@@ -55,7 +55,8 @@ div.content {
     margin-top: 30px;
     margin-bottom: auto;
     margin-left: auto;
-    margin-right: auto;     
+    margin-right: auto;
+    background-color: #ffffff;     
 }
 
 h1,h2,h3 {
@@ -78,9 +79,13 @@ form {
     overflow: hidden;
 }
 
-input{
+input {
     width: 940px;
     color: #777777;
+}
+
+input:nth-of-type(3) {
+    height: 150px;
 }
 
 input:last-child {
